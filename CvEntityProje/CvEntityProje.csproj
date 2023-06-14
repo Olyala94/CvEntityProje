@@ -78,14 +78,55 @@
     <Content Include="Default.aspx" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Model1.Context.cs</LastGenOutput>
       <DependentUpon>Model1.edmx</DependentUpon>
+      <LastGenOutput>Model1.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Model1.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
       <LastGenOutput>Model1.cs</LastGenOutput>
     </Content>
+    <Content Include="profile-bootstrap-master\.gitattributes" />
+    <Content Include="profile-bootstrap-master\css\bootstrap\bootstrap.min.css" />
+    <Content Include="profile-bootstrap-master\css\devicons\css\devicons.css" />
+    <Content Include="profile-bootstrap-master\css\devicons\css\devicons.min.css" />
+    <Content Include="profile-bootstrap-master\css\devicons\fonts\devicons.svg" />
+    <Content Include="profile-bootstrap-master\css\simple-line-icons\css\simple-line-icons.css" />
+    <Content Include="profile-bootstrap-master\css\simple-line-icons\fonts\Simple-Line-Icons.svg" />
+    <Content Include="profile-bootstrap-master\css\style.css" />
+    <Content Include="profile-bootstrap-master\font-awesome\css\font-awesome.css" />
+    <Content Include="profile-bootstrap-master\font-awesome\css\font-awesome.min.css" />
+    <Content Include="profile-bootstrap-master\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="profile-bootstrap-master\img\profile-banner.jpg" />
+    <Content Include="profile-bootstrap-master\gulpfile.js" />
+    <Content Include="profile-bootstrap-master\img\belgrad.jpg" />
+    <Content Include="profile-bootstrap-master\img\bg-stats.jpg" />
+    <Content Include="profile-bootstrap-master\img\favicon.ico" />
+    <Content Include="profile-bootstrap-master\img\logo-s.png" />
+    <Content Include="profile-bootstrap-master\img\logo-white.png" />
+    <Content Include="profile-bootstrap-master\img\olya2.png" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-1.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-10.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-11.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-2.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-3.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-4.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-5.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-6.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-7.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-8.jpg" />
+    <Content Include="profile-bootstrap-master\img\portfolio\p-9.jpg" />
+    <Content Include="profile-bootstrap-master\img\profile.jpg" />
+    <Content Include="profile-bootstrap-master\index.html" />
+    <Content Include="profile-bootstrap-master\js\bootstrap\bootstrap.bundle.min.js" />
+    <Content Include="profile-bootstrap-master\js\counter\jquery.counterup.min.js" />
+    <Content Include="profile-bootstrap-master\js\counter\jquery.waypoints.min.js" />
+    <Content Include="profile-bootstrap-master\js\custom.js" />
+    <Content Include="profile-bootstrap-master\js\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="profile-bootstrap-master\js\jquery-easing\jquery.easing.js" />
+    <Content Include="profile-bootstrap-master\js\jquery-easing\jquery.easing.min.js" />
+    <Content Include="profile-bootstrap-master\js\jquery\jquery.js" />
+    <Content Include="profile-bootstrap-master\js\jquery\jquery.min.js" />
     <Content Include="Web.config" />
     <Content Include="web\css\easy-responsive-tabs.css" />
     <Content Include="web\css\font-awesome.css" />
@@ -110,6 +151,9 @@
     <Content Include="web\w3layouts-License.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="About.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Adres.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
@@ -122,6 +166,9 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hakimda.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Hakımda.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -158,6 +205,56 @@
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
     <None Include="packages.config" />
+    <Content Include="profile-bootstrap-master\css\devicons\css\devicons.scss" />
+    <Content Include="profile-bootstrap-master\css\devicons\fonts\devicons.eot" />
+    <Content Include="profile-bootstrap-master\css\devicons\fonts\devicons.ttf" />
+    <Content Include="profile-bootstrap-master\css\devicons\fonts\devicons.woff" />
+    <Content Include="profile-bootstrap-master\css\simple-line-icons\fonts\Simple-Line-Icons.eot" />
+    <Content Include="profile-bootstrap-master\css\simple-line-icons\fonts\Simple-Line-Icons.ttf" />
+    <Content Include="profile-bootstrap-master\css\simple-line-icons\fonts\Simple-Line-Icons.woff" />
+    <Content Include="profile-bootstrap-master\css\simple-line-icons\fonts\Simple-Line-Icons.woff2" />
+    <Content Include="profile-bootstrap-master\css\simple-line-icons\less\simple-line-icons.less" />
+    <Content Include="profile-bootstrap-master\css\simple-line-icons\scss\simple-line-icons.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="profile-bootstrap-master\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="profile-bootstrap-master\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="profile-bootstrap-master\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="profile-bootstrap-master\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\animated.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\bordered-pulled.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\core.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\fixed-width.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\font-awesome.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\icons.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\larger.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\list.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\mixins.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\path.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\rotated-flipped.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\screen-reader.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\stacked.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\less\variables.less" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\font-awesome.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_animated.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_core.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_icons.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_larger.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_list.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_mixins.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_path.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_stacked.scss" />
+    <Content Include="profile-bootstrap-master\font-awesome\scss\_variables.scss" />
+    <Content Include="profile-bootstrap-master\scss\resume.scss" />
+    <Content Include="profile-bootstrap-master\scss\_bootstrap-overrides.scss" />
+    <Content Include="profile-bootstrap-master\scss\_global.scss" />
+    <Content Include="profile-bootstrap-master\scss\_mixins.scss" />
+    <Content Include="profile-bootstrap-master\scss\_nav.scss" />
+    <Content Include="profile-bootstrap-master\scss\_resume-item.scss" />
+    <Content Include="profile-bootstrap-master\scss\_variables.scss" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

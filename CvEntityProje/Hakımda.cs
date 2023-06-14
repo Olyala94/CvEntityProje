@@ -16,6 +16,7 @@ namespace CvEntityProje
     {
         public int Id { get; set; }
         public string Bilgiler { get; set; }
-        public string İsDeneyimler { get; set; }
+        public string Egitim { get; set; }
+        public string IsDeneyimler { get; set; }
     }
 }

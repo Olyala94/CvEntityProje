@@ -13,10 +13,10 @@ namespace CvEntityProje
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class DbCvEntityEntities : DbContext
+    public partial class DbCvEntityEntities1 : DbContext
     {
-        public DbCvEntityEntities()
-            : base("name=DbCvEntityEntities")
+        public DbCvEntityEntities1()
+            : base("name=DbCvEntityEntities1")
         {
         }
     
@@ -25,10 +25,12 @@ namespace CvEntityProje
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Yetenekler> Yetenekler { get; set; }
+        public virtual DbSet<About> About { get; set; }
         public virtual DbSet<Adres> Adres { get; set; }
         public virtual DbSet<Calismalari> Calismalari { get; set; }
         public virtual DbSet<Hakımda> Hakımda { get; set; }
         public virtual DbSet<Iletisim> Iletisim { get; set; }
+        public virtual DbSet<Yetenekler> Yetenekler { get; set; }
+        public virtual DbSet<Hakimda> Hakimda { get; set; }
     }
 }
