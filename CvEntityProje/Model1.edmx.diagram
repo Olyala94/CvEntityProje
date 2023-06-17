@@ -12,6 +12,7 @@
         <EntityTypeShape EntityType="DbCvEntityModel.Iletisim" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DbCvEntityModel.Yetenekler" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="DbCvEntityModel.Hakimda" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DbCvEntityModel.Admin" Width="1.5" PointX="7" PointY="3.5" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

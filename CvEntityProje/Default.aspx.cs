@@ -13,8 +13,8 @@ namespace CvEntityProje
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            Repeater1.DataSource = DB.Hakımda.ToList();
-            Repeater1.DataBind();
+            Repeater1.DataSource = DB.Hakımda.ToList(); 
+            Repeater1.DataBind();    
 
             Repeater2.DataSource = DB.Hakımda.ToList();
             Repeater2.DataBind();
@@ -25,5 +25,16 @@ namespace CvEntityProje
             Repeater4.DataSource = DB.Yetenekler.ToList();
             Repeater4.DataBind();
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Iletisim t = new Iletisim(); //DB - deki İletişim Tablosuna "t" - isimli bir değişken yazdım
+            t.AdSoyad = TextBox1.Text;  // burada  "t" nesne ile parametreleri aldım
+            t.Mail = TextBox2.Text;
+            t.Konu = TextBox3.Text;
+            t.Mesaj = TextBox4.Text;    
+            DB.Iletisim.Add(t); // burda "DB" içerisine "(t)" - yi Ekle 
+            DB.SaveChanges();   // Değişikleri "DB" de  İletişşim Tablonun içine Kaydet
+        } 
     }
 }

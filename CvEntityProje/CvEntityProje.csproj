@@ -75,7 +75,100 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="cvAdmin\css\bootstrap.css" />
+    <Content Include="cvAdmin\css\clndr.css" />
+    <Content Include="cvAdmin\css\jqvmap.css" />
+    <Content Include="cvAdmin\css\nav.css" />
+    <Content Include="cvAdmin\css\style.css" />
+    <Content Include="cvAdmin\images\ar2.png" />
+    <Content Include="cvAdmin\images\arrows.png" />
+    <Content Include="cvAdmin\images\avatar.jpg" />
+    <Content Include="cvAdmin\images\avatar1.jpg" />
+    <Content Include="cvAdmin\images\avatar2.jpg" />
+    <Content Include="cvAdmin\images\img-sprite.png" />
+    <Content Include="cvAdmin\images\into.png" />
+    <Content Include="cvAdmin\images\into1.png" />
+    <Content Include="cvAdmin\images\logo.png" />
+    <Content Include="cvAdmin\images\pp.jpg" />
+    <Content Include="cvAdmin\images\pp0.jpg" />
+    <Content Include="cvAdmin\images\pp01.jpg" />
+    <Content Include="cvAdmin\images\settings.png" />
+    <Content Include="cvAdmin\images\tick-mark.png" />
+    <Content Include="cvAdmin\index.html" />
+    <Content Include="cvAdmin\js\Chart1.js" />
+    <Content Include="cvAdmin\js\clndr.js" />
+    <Content Include="cvAdmin\js\easyResponsiveTabs.js" />
+    <Content Include="cvAdmin\js\jquery.easydropdown.js" />
+    <Content Include="cvAdmin\js\jquery.min.js" />
+    <Content Include="cvAdmin\js\jquery.nicescroll.js" />
+    <Content Include="cvAdmin\js\jquery.vmap.js" />
+    <Content Include="cvAdmin\js\jquery.vmap.sampledata.js" />
+    <Content Include="cvAdmin\js\jquery.vmap.world.js" />
+    <Content Include="cvAdmin\js\main.js" />
+    <Content Include="cvAdmin\js\moment-2.2.1.js" />
+    <Content Include="cvAdmin\js\site.js" />
+    <Content Include="cvAdmin\js\underscore-min.js" />
+    <Content Include="cvAdmin\resimler\book1.jpg" />
+    <Content Include="cvAdmin\resimler\book2.jpg" />
+    <Content Include="cvAdmin\resimler\book3.jpg" />
+    <Content Include="cvAdmin\resimler\book4.jpg" />
+    <Content Include="cvAdmin\resimler\book5.jpg" />
+    <Content Include="cvAdmin\resimler\img1.jpg" />
+    <Content Include="cvAdmin\w3layouts-License.txt" />
+    <Content Include="cvAdmin\Yeni Metin Belgesi.txt" />
+    <Content Include="CvLogin\css\main.css" />
+    <Content Include="CvLogin\css\util.css" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\css\font-awesome.css" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\css\font-awesome.min.css" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.svg" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\HELP-US-OUT.txt" />
+    <Content Include="CvLogin\fonts\Linearicons-Free-v1.0.0\icon-font.min.css" />
+    <Content Include="CvLogin\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.svg" />
+    <Content Include="CvLogin\images\bg-01.jpg" />
+    <Content Include="CvLogin\images\icons\favicon.ico" />
+    <Content Include="CvLogin\images\icons\map-marker.png" />
+    <Content Include="CvLogin\index.html" />
+    <Content Include="CvLogin\js\main.js" />
+    <Content Include="CvLogin\js\map-custom.js" />
+    <Content Include="CvLogin\vendor\animate\animate.css" />
+    <Content Include="CvLogin\vendor\animsition\css\animsition.css" />
+    <Content Include="CvLogin\vendor\animsition\css\animsition.min.css" />
+    <Content Include="CvLogin\vendor\animsition\js\animsition.js" />
+    <Content Include="CvLogin\vendor\animsition\js\animsition.min.js" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap.css" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap.min.css" />
+    <Content Include="CvLogin\vendor\bootstrap\js\bootstrap.js" />
+    <Content Include="CvLogin\vendor\bootstrap\js\bootstrap.min.js" />
+    <Content Include="CvLogin\vendor\bootstrap\js\popper.js" />
+    <Content Include="CvLogin\vendor\bootstrap\js\popper.min.js" />
+    <Content Include="CvLogin\vendor\bootstrap\js\tooltip.js" />
+    <Content Include="CvLogin\vendor\countdowntime\countdowntime.js" />
+    <Content Include="CvLogin\vendor\css-hamburgers\hamburgers.css" />
+    <Content Include="CvLogin\vendor\css-hamburgers\hamburgers.min.css" />
+    <Content Include="CvLogin\vendor\daterangepicker\daterangepicker.css" />
+    <Content Include="CvLogin\vendor\daterangepicker\daterangepicker.js" />
+    <Content Include="CvLogin\vendor\daterangepicker\moment.js" />
+    <Content Include="CvLogin\vendor\daterangepicker\moment.min.js" />
+    <Content Include="CvLogin\vendor\jquery\jquery-3.2.1.min.js" />
+    <Content Include="CvLogin\vendor\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="CvLogin\vendor\perfect-scrollbar\perfect-scrollbar.min.js" />
+    <Content Include="CvLogin\vendor\select2\select2.css" />
+    <Content Include="CvLogin\vendor\select2\select2.js" />
+    <Content Include="CvLogin\vendor\select2\select2.min.css" />
+    <Content Include="CvLogin\vendor\select2\select2.min.js" />
     <Content Include="Default.aspx" />
+    <Content Include="Deneyimler.aspx" />
+    <Content Include="Iletisim.aspx" />
+    <Content Include="Istatistik.aspx" />
+    <Content Include="Login.aspx" />
+    <Content Include="MesajDetay.aspx" />
+    <Content Include="YeniYetenek.aspx" />
+    <Content Include="YetenekGuncelle.aspx" />
+    <Content Include="Yeteneklerim.aspx" />
     <Content Include="Model1.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Model1.edmx</DependentUpon>
@@ -149,10 +242,22 @@
     <Content Include="web\js\jquery.events.touch.js" />
     <Content Include="web\js\lightcase.js" />
     <Content Include="web\w3layouts-License.txt" />
+    <Content Include="YetenekSil.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
     </Compile>
     <Compile Include="Adres.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -167,8 +272,64 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Deneyimler.aspx.cs">
+      <DependentUpon>Deneyimler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Deneyimler.aspx.designer.cs">
+      <DependentUpon>Deneyimler.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Hakimda.cs">
       <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Iletisim.aspx.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Iletisim.aspx.designer.cs">
+      <DependentUpon>Iletisim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Istatistik.aspx.cs">
+      <DependentUpon>Istatistik.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Istatistik.aspx.designer.cs">
+      <DependentUpon>Istatistik.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.designer.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YeniYetenek.aspx.cs">
+      <DependentUpon>YeniYetenek.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YeniYetenek.aspx.designer.cs">
+      <DependentUpon>YeniYetenek.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekGuncelle.aspx.designer.cs">
+      <DependentUpon>YetenekGuncelle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yeteneklerim.aspx.cs">
+      <DependentUpon>Yeteneklerim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yeteneklerim.aspx.designer.cs">
+      <DependentUpon>Yeteneklerim.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hakımda.cs">
       <DependentUpon>Model1.tt</DependentUpon>
@@ -195,6 +356,13 @@
     <Compile Include="Yetenekler.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="YetenekSil.aspx.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YetenekSil.aspx.designer.cs">
+      <DependentUpon>YetenekSil.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EntityDeploy Include="Model1.edmx">
@@ -204,6 +372,69 @@
     <Content Include="Model1.edmx.diagram">
       <DependentUpon>Model1.edmx</DependentUpon>
     </Content>
+    <Content Include="app.manifest" />
+    <Content Include="Admin.Master" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.eot" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.ttf" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\fonts\fontawesome-webfont.woff2" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\fonts\FontAwesome.otf" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\animated.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\bordered-pulled.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\core.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\fixed-width.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\font-awesome.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\icons.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\larger.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\list.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\mixins.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\path.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\rotated-flipped.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\screen-reader.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\stacked.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\less\variables.less" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\font-awesome.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_animated.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_bordered-pulled.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_core.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_fixed-width.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_icons.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_larger.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_list.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_mixins.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_path.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_rotated-flipped.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_screen-reader.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_stacked.scss" />
+    <Content Include="CvLogin\fonts\font-awesome-4.7.0\scss\_variables.scss" />
+    <Content Include="CvLogin\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.eot" />
+    <Content Include="CvLogin\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.ttf" />
+    <Content Include="CvLogin\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.woff" />
+    <Content Include="CvLogin\fonts\Linearicons-Free-v1.0.0\WebFont\Linearicons-Free.woff2" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-Black.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-BlackItalic.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-Bold.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-BoldItalic.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-ExtraBold.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-ExtraBoldItalic.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-ExtraLight.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-ExtraLightItalic.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-Italic.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-Light.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-LightItalic.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-Medium.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-MediumItalic.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-Regular.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-SemiBold.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-SemiBoldItalic.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-Thin.ttf" />
+    <Content Include="CvLogin\fonts\poppins\Poppins-ThinItalic.ttf" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap-grid.css.map" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap-grid.min.css.map" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap-reboot.css.map" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap-reboot.min.css.map" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap.css.map" />
+    <Content Include="CvLogin\vendor\bootstrap\css\bootstrap.min.css.map" />
     <None Include="packages.config" />
     <Content Include="profile-bootstrap-master\css\devicons\css\devicons.scss" />
     <Content Include="profile-bootstrap-master\css\devicons\fonts\devicons.eot" />
@@ -273,6 +504,9 @@
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />

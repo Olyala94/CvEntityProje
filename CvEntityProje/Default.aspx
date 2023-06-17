@@ -42,7 +42,14 @@ License URL: https://creativecommons.org/licenses/by/4.0/
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="sidenav text-center">
+                <div class="side_top">
+                    <h3 class="top_hd mt-2" style="color:black">Olya Yusupova</h3>
+                    <p class="top_hd mt-2" style="color:black">Yazılım Geliştirici</p>
+                </div>
+            </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link js-scroll-trigger" href="#about">Ana Sayfa</a>
@@ -71,7 +78,7 @@ License URL: https://creativecommons.org/licenses/by/4.0/
 
     <div class="container-fluid p-0">
 
-        <!--====================================================
+    <!--====================================================
                         ABOUT "Ana Sayfa"
     ======================================================-->
 
@@ -494,20 +501,24 @@ License URL: https://creativecommons.org/licenses/by/4.0/
                     <div class="row con-form">
                         <form action="#" method="post" runat="server">
                         <div class="col-md-12">
-                            <asp:TextBox ID="TextBox1" runat="server" placeholder="Adınız" class="form-control textbox-custom"   Wrap="True" TextMode="Email"></asp:TextBox>
+                            <asp:TextBox ID="TextBox1" runat="server" placeholder="Adınız" class="form-control textbox-custom"   Wrap="True"></asp:TextBox>
                         </div>
                         <div class="col-md-12">
-                            <asp:TextBox ID="TextBox2" runat="server" placeholder="Mail Adresiniz" class="form-control textbox-custom"></asp:TextBox>
+                            <asp:TextBox ID="TextBox2" runat="server" placeholder="Mail Adresiniz" TextMode="Email" class="form-control textbox-custom"></asp:TextBox>
                             <%--<input type="text" name="email" placeholder="Email Id" class="form-control">--%>
                         </div>
                         <div class="col-md-12">
                             <asp:TextBox ID="TextBox3" runat="server" placeholder="Konu" class="form-control"></asp:TextBox>
+                            <asp:TextBox ID="TextBox4" runat="server" placeholder="Mesajınız" TextMode="MultiLine" Height="30"></asp:TextBox>
                             <%--<input type="text" name="subject" placeholder="Subject" class="form-control">--%>
                         </div>
-                        <div class="col-md-12">
-                            <textarea name="" id=""></textarea></div>
+
+                       <%-- <div class="col-md-12">
+                            <textarea name="" id=""></textarea>
+                        </div>--%>
+
                         <div class="col-md-12 sub-but">
-                            <asp:Button ID="Button1" class="btn btn-general btn-white" runat="server" Text="Gönder"  />
+                            <asp:Button ID="Button1" class="btn btn-general btn-white" runat="server" Text="Gönder" OnClick="Button1_Click"  />
                             <asp:Button ID="Button2" class="btn btn-general btn-warning" runat="server" Text="Vargeç"  />
                         </div> 
                         </form>
